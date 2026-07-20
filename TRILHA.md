@@ -16,7 +16,7 @@ Enunciado pedia: criação da instância, instalação do IIS e print do site.
 | 2 | Papel IIS adicionado via Server Manager |
 | 3 | Site publicado e validado acessando o IP público |
 
-📁 Evidências completas em [`atividade-01/resumo.md)`](atividade-01/resumo.md)
+📁 Evidências completas em [`atividade-01/resumo.md`](atividade-01/resumo.md)
 
 ## Atividade 02 — EC2 Linux Debian + Apache
 
@@ -34,4 +34,4 @@ Enunciado pedia: criação da instância, par de chaves, acesso via PuTTY, insta
 | 4 | Apache instalado e `index.html` editado via terminal |
 | 5 | Site publicado e validado acessando o IP público |
 
-📁 Evidências completas em [`atividade-02-ec2-linux-apache`](./atividade-02-ec2-linux-apache)
+📁 Evidências completas em [`atividade-02/resumo.md`](atividade-02/resumo.md)
