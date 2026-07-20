@@ -11,7 +11,7 @@ Registro cronológico do que venho estudando e praticando no curso AWS Cloud Pra
 - Edição do `index.html` via terminal (`nano`)
 - Site publicado e validado no IP público da instância
 
-➡️ Detalhes em [`atividade-02-ec2-linux-apache`](./atividade-02-ec2-linux-apache)
+➡️ Detalhes em [`atividade-01/resumo.md`](atividade-01/resumo.md)
 
 ## 20/07/2026
 - Criação de instância EC2 com **Windows Server 2022**
@@ -19,7 +19,7 @@ Registro cronológico do que venho estudando e praticando no curso AWS Cloud Pra
 - Validação da página padrão do IIS
 - Publicação do site e validação no IP público da instância
 
-➡️ Detalhes em [`atividade-01-ec2-windows-iis`](./atividade-01-ec2-windows-iis)
+➡️ Detalhes em [`atividade-02/resumo.md`](atividade-02/resumo.md)
 
 ---
 
