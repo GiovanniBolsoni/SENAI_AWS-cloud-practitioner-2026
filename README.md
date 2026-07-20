@@ -12,8 +12,8 @@ Servir como portfólio de aprendizado — mostrando não só o resultado final d
 
 | # | Atividade | Tecnologias | Status |
 |---|-----------|-------------|--------|
-| 01 | [Servidor Web no Linux Debian](./atividade-02-ec2-linux-apache) | EC2, Debian 13, Apache | ✅ Concluída |
-| 02 | [Servidor Web no Windows Server](./atividade-01-ec2-windows-iis) | EC2, Windows Server 2022, IIS | ✅ Concluída |
+| 01 | [Servidor Web no Linux Debian](/atividade-01/) | EC2, Debian 13, Apache | ✅ Concluída |
+| 02 | [Servidor Web no Windows Server](/atividade-02/) | EC2, Windows Server 2022, IIS | ✅ Concluída |
 
 
 ## 🛠️ Principais serviços AWS utilizados até agora
