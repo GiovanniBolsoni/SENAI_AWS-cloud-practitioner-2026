@@ -1,56 +1,33 @@
-# Atividade 02 — Servidor Web no Linux Debian (EC2 + Apache)
+# Atividade 02 — Servidor Web no Windows Server (EC2 + IIS)
 
 ## Objetivo
 
-Criar uma instância EC2 com Linux Debian, acessar via SSH (PuTTY), instalar o Apache e publicar um site simples acessível pelo IP público da instância.
+Criar uma instância EC2 com Windows Server, instalar o serviço IIS (Internet Information Services) e publicar um site simples acessível pelo IP público da instância.
 
 ## Etapas realizadas
 
 ### 1. Criação da instância EC2
-Instância do tipo `t3.micro` criada com a imagem **Debian 13 (HVM)**, através do console da AWS (serviço EC2).
+Instância do tipo `t3.medium` criada com a imagem **Windows Server 2022**, através do console da AWS (serviço EC2).
 
-![Criação da instância](./imagens/01-criacao-instancia-debian.png)
+![Criação da instância](./imagens/01-criacao-instancia-windows.png)
 
-### 2. Criação do par de chaves (Key Pair)
-Para acesso seguro via SSH, foi gerado um par de chaves no formato `.ppk` (compatível com PuTTY), do tipo RSA.
+### 2. Instalação do IIS
+Após conectar na instância via Área de Trabalho Remota (RDP), o papel de servidor **IIS (Internet Information Services)** foi adicionado através do *Server Manager*, junto com o serviço de *File and Storage Services*.
 
-![Criação do par de chaves](./imagens/02-criacao-par-de-chaves.png)
+![Instalação do IIS](./imagens/02-instalacao-iis.png)
 
-### 3. Acesso via PuTTY
-Conexão SSH realizada através do PuTTY, usando o IP público da instância na porta 22.
+### 3. Validação da página padrão do IIS
+Com o serviço instalado e rodando, acessei o IP público da instância pelo navegador e confirmei a página de boas-vindas padrão do IIS, sinal de que o servidor web estava ativo.
 
-![Acesso via PuTTY](./imagens/03-acesso-via-putty.png)
+![Página padrão do IIS](./imagens/03-iis-pagina-padrao.png)
 
-### 4. Navegação nos diretórios
-Após o acesso, foi feita a exploração da estrutura de diretórios do servidor (uso de `tree`, `ls`, navegação entre pastas do projeto).
+### 4. Publicação do site
+Por fim, o conteúdo do site (`index.html`) foi publicado na pasta padrão do IIS e ficou acessível publicamente pelo IP da instância.
 
-![Navegação nos diretórios](./imagens/04-navegacao-diretorios.png)
-
-### 5. Instalação do Apache
-O servidor web **Apache** foi instalado na instância Linux.
-
-![Instalação do Apache](./imagens/05-instalando-apache.png)
-
-### 6. Edição do site (index.html)
-O arquivo `index.html`, localizado em `/var/www/html`, foi editado diretamente no servidor usando o editor `nano`.
-
-![Editando o index.html](./imagens/06-editando-index-html.png)
-
-### 7. Arquivo finalizado
-Conteúdo final do `index.html` revisado antes da publicação.
-
-![Arquivo HTML finalizado](./imagens/07-arquivo-finalizado.png)
-
-### 8. Site no ar
-Site publicado e acessível através do IP público da instância EC2.
-
-![Site rodando no IP público](./imagens/08-site-rodando-no-ip.png)
+![Site rodando no IP público](./imagens/04-site-rodando-no-ip.png)
 
 ## Aprendizados
 
-- Como provisionar uma instância Linux na EC2
-- Como gerar e usar Key Pairs para acesso SSH
-- Como se conectar via PuTTY
-- Comandos básicos de navegação em Linux (`ls`, `cd`, `tree`)
-- Como instalar e configurar o Apache
-- Como editar arquivos diretamente no servidor via terminal (`nano`)
+- Como provisionar uma instância Windows na EC2
+- Como instalar e configurar o papel IIS via Server Manager
+- Como validar que um servidor web está publicamente acessível
