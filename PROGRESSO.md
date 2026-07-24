@@ -28,15 +28,3 @@ Registro cronológico do que venho estudando e praticando no curso AWS Cloud Pra
 - Verificação de que a instância EC2 alvo foi interrompida automaticamente
 
 ➡️ Detalhes em [`atividade-03/resumo.md`](atividade-03/resumo.md)
-
-
----
-
-<!--
-Para as próximas entradas, seguir o modelo:
-
-## DD/MM/AAAA
-- O que foi estudado/praticado
-- Dificuldades encontradas (se houver)
-- Link para a atividade, se aplicável
--->
