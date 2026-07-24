@@ -29,6 +29,7 @@ Registro cronológico do que venho estudando e praticando no curso AWS Cloud Pra
 
 ➡️ Detalhes em [`atividade-03/resumo.md`](atividade-03/resumo.md)
 
+
 ---
 
 <!--

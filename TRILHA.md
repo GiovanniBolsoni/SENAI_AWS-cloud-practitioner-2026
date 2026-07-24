@@ -35,7 +35,6 @@ Enunciado pedia: criação da instância, instalação do IIS e print do site.
 | 3 | Site publicado e validado acessando o IP público |
 
 📁 Evidências completas em [`atividade-02/resumo.md`](atividade-02/resumo.md)
-
 ## Atividade 03 — Lambda parando EC2 automaticamente
 
 Enunciado pedia: criar a função Lambda, configurar o gatilho, configurar o código da função e verificar se funcionou.
@@ -52,3 +51,4 @@ Enunciado pedia: criar a função Lambda, configurar o gatilho, configurar o có
 | 4 | Instância EC2 confirmada como "Interrompida" |
 
 📁 Evidências completas em [`atividade-03/resumo.md`](atividade-03/resumo.md)
+
