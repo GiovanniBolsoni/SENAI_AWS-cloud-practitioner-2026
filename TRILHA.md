@@ -51,4 +51,3 @@ Enunciado pedia: criar a função Lambda, configurar o gatilho, configurar o có
 | 4 | Instância EC2 confirmada como "Interrompida" |
 
 📁 Evidências completas em [`atividade-03/resumo.md`](atividade-03/resumo.md)
-
