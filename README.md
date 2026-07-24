@@ -12,14 +12,18 @@ Servir como portfólio de aprendizado — mostrando não só o resultado final d
 
 | # | Atividade | Tecnologias | Status |
 |---|-----------|-------------|--------|
-| 01 | [Servidor Web no Windows Server](./atividade-01-ec2-windows-iis) | EC2, Windows Server 2022, IIS | ✅ Concluída |
-| 02 | [Servidor Web no Linux Debian](./atividade-02-ec2-linux-apache) | EC2, Debian 13, Apache | ✅ Concluída |
+| 01 | [Servidor Web no Linux Debian](/atividade-01/) | EC2, Debian 13, Apache | ✅ Concluída |
+| 02 | [Servidor Web no Windows Server](/atividade-02/) | EC2, Windows Server 2022, IIS | ✅ Concluída |
+| 03 | [Parando EC2 automaticamente com Lambda](/atividade-03/) | Lambda, EventBridge, EC2, Python (boto3) | ✅ Concluída |
+
 
 ## 🛠️ Principais serviços AWS utilizados até agora
 
 - **EC2 (Elastic Compute Cloud)** — criação e gerenciamento de instâncias (Windows e Linux)
 - **Key Pairs** — geração de chaves para acesso seguro às instâncias
 - **Security Groups** — configuração de acesso (implícito na criação das instâncias)
+- **AWS Lambda** — funções serverless, com Python (boto3)
+- **Amazon EventBridge** — agendamento e disparo automático de eventos
 
 ## 🧭 Trilha das atividades
 
